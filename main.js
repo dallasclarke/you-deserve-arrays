@@ -22,7 +22,12 @@
  }
 
  function firstItemIsNumber (arr) {
-  return a
+  return arr[0] === 'number';
+ }
+
+ function secondCharOfThirdString (arr) {
+  const str = arr[2];
+  return str[1];
  }
 
 
