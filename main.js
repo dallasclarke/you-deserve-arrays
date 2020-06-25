@@ -2,6 +2,29 @@
  * YOUR CODE HERE *
  ******************/
 
+ function getFirstItemFrom (arr) {
+  return arr[0];
+ }
+
+ function getLastItemFrom (arr) {
+   return arr.slice(-1)[0];
+ }
+
+ function getIndex3 (arr) { 
+  return arr[3]
+ }
+
+ function isLongList (arr) {
+   if (arr >= [10]) {
+     return true;
+   } else {
+     return false;
+   }
+ }
+
+ function firstItemIsNumber (arr) {
+   
+ }
 
 
 
