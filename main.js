@@ -7,23 +7,22 @@
  }
 
  function getLastItemFrom (arr) {
-   return arr.slice(-1)[0];
+   return arr[arr.length -1];
  }
 
  function getIndex3 (arr) { 
-  return arr[3]
+  if (arr.length < 4) {
+    return arr[arr.length -1];
+  }
+  return arr[3];
  }
 
  function isLongList (arr) {
-   if (arr >= [10]) {
-     return true;
-   } else {
-     return false;
-   }
+   return arr.length >=10
  }
 
  function firstItemIsNumber (arr) {
-   
+  return a
  }
 
 
